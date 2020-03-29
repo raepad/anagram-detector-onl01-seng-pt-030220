@@ -1,6 +1,6 @@
 # Your code goes here!
 class Anagram
-attr_accessor :word
+  attr_accessor :word
 
   def initialize(word)
     @word = word
@@ -8,8 +8,7 @@ attr_accessor :word
   
   def match(words)
     words = []
-    words.each do |i|
-      i
+    words = self.new
     end
   end
   
