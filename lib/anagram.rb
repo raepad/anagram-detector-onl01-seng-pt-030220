@@ -11,7 +11,7 @@ class Anagram
     if %w(words) == %w(word)
       words << self.new
     else
-      Array.new[]
+      Array.new
     end
     # words.select do |w|
     #   is_anagram?(w)
