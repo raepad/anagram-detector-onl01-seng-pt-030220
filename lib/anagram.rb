@@ -15,7 +15,7 @@ class Anagram
     end
     # words.select do |w|
     #   is_anagram?(w)
-    end
+    # end
   end
   
   # def is_anagram?(compare)
