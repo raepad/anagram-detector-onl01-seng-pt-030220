@@ -8,8 +8,13 @@ class Anagram
   
   def match(words)
     words = []
-    words.select do |w|
-      is_anagram?(w)
+    if %w(words) == %w(word)
+      words << self.new
+    else
+      
+    end
+    # words.select do |w|
+    #   is_anagram?(w)
     end
   end
   
