@@ -9,7 +9,7 @@ class Anagram
   def match(words)
     words = []
     words = self.new
-    end
+  
   end
   
 end
