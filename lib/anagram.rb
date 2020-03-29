@@ -7,11 +7,7 @@ class Anagram
   end
   
   def match(words)
-    words = []
-    words.collect do |w|
-      if w.split("").sort === word.split("").sort
-      end
-    end
+    wordarray.collect{|i| i if i.split("").sort == word.split("").sort}.compact
   end
   
   # def is_anagram?(compare)
