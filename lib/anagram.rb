@@ -8,7 +8,7 @@ class Anagram
   
   def match(words)
     words = []
-    words.split(" ").
+    words.split(" ").sort.join
     words.select do |w|
       is_anagram?(w)
     end
